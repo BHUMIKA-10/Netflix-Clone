@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "poppings", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/images/background.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  width: 150px;
+
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.custom-select{
+  display: flex;
+  
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  
+}
+.custom-select select{
+  background-color: transparent;
+  color: white;
+  width: 80px;
+  height:30px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+}
+select option{
+  color: black;
+}
+button{
+  margin-left: 20px;
+  border: none;
+  background-color: red;
+  width: 80px;
+  height: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight:500;
+  border-radius: 4px;
+}
+.hero {
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+.hero > :nth-child(1) {
+  font-style: bold;
+  font-weight: 900;
+  font-size: 45px;
+  text-align: center;
+}
+.hero :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.emailaddress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 75px;
+  margin-top: 0px;
+}
+.emailaddress input {
+  padding: 9px 15px 8px 3px;
+  height: 30px;
+  color: white;
+  width: 292px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-left: 2px;
+
+  text-align: center;
+}
+.emailaddress button {
+  width: 190px;
+  height: 48px;
+  color: white;
+  font-size: larger;
+  font-weight: 600px;
+  background-color: red;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+.seperation {
+  height: 7px;
+  background-color: gray;
+  margin-top: 30px;
+}
+.first {
+  display: flex;
+  height: 576px;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.first div {
+  display: flex;
+  flex-direction: column;
+}
+.first > div :first-child {
+  font-weight: 900;
+  font-size: 48px;
+}
+.first > div :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+.secImg {
+  position: relative;
+}
+.secImg img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 90%;
+}
+.faq {
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+}
+.faqBox {
+  display: flex;
+  background-color: #2d2d2d;
+  padding: 34px;
+  max-width: 75vw;
+  margin: 15px auto;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+}
+.faqBox svg {
+  filter: invert(1);
+  height: 20px;
+  width: 20px;
+}
+.faqBox:hover {
+  background-color:#414141;
+}
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.signin .emailaddress {
+  margin-top: 20px;
+}
+.links {
+  color: rgba(255, 255, 255, 0.7);
+  height: 400px;
+  width: 440;
+  margin-left: 80px;
+  margin-right: 180px;
+  display: flex;
+}
+.links > :nth-child(1) {
+  flex-grow: calc(1);
+}
+.links > :nth-child(2) {
+  flex-grow: calc(1);
+}
+.links > :nth-child(3) {
+  flex-grow: calc(1);
+}
+.links > :nth-child(4) {
+  flex-grow: calc(1);
+}
+.links ul {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+ color: rgba(255, 255, 255, 0.7); 
+}
+.links li {
+  margin-top: 20px;
+}
+.links select{
+  margin-top: 20px;
+}
+.links p {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
